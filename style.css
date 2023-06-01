@@ -1,0 +1,411 @@
+.container{
+	margin: 0 auto;
+	max-width: 1440px;
+}
+.header__wrapper{
+display: flex;
+align-items: center;
+max-width: 1440px;
+height: 200px;
+background-color: black;
+
+}
+.header-menu__list{
+	list-style: none;
+	margin: 0; 
+	padding-left: 0;
+}
+.header-menu__list-link{
+	text-decoration: none;
+	color:white;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 22px;
+	margin-right: 76px;
+	
+ }
+.header-menu__list-item{
+	display: inline-flex;
+	text-align: center;
+	justify-content: space-between;
+  }
+.header__img{
+	margin-left: 240px;
+	margin-right: 240px;
+}
+.flex__welcome__wrapper{
+	display: flex;
+	justify-content: space-between;
+
+}
+.welcome__wrapper{
+width: 1440px;
+height: 950px;
+ 	margin-bottom: 75px;
+    background-color: #030303;
+    height: 70vh;
+    background-image: url(assets/luvrePiramid.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(80% - 20px) calc(0% - 10px);
+}
+.welcome__header{
+margin-top: 40px;
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.span__welcome{
+display: block;
+}
+.welcome__text{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 2px;
+color: #FFFFFF;
+
+}
+.button__discower{
+background: #710707;
+padding: 10px 20px;
+color:white;
+text-decoration: none;
+border-radius: 7px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+}
+/*секция virtual__tour*/
+.virtual__tour__wrapper{
+display: flex;
+justify-content: space-between;
+flex-wrap:wrap;
+}
+.virtual__tour__header{
+position: relative;
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #9D8665;
+}
+.virtual__tour__header::after{
+	position:absolute;
+	content:"";
+	display:block;
+	top:98px;
+	background-color:#710707;
+	width: 100%;
+	height: 3px;
+}
+.flex__contain__header{
+position: relative;
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 35px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #000000;
+}
+.flex__contain__header::after{
+	position:absolute;
+	content:"";
+	display:block;
+	top:44px;
+	background-color:#710707;
+	width: 300px;
+	height: 3px;
+}
+.flex__contain__element{
+font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+}
+
+
+
+/*секция picture__explore__section*/
+.explore__wrapper{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+
+	
+}
+.picture__explore__header{
+position: relative;
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.picture__explore__header::after{
+	position:absolute;
+	content:"";
+	display:block;
+	top:98px;
+	background-color:#710707;
+	width: 100%;
+	height: 3px;
+}
+
+.picture__explore__text{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 38px;
+color: #FFFFFF;
+}
+.picture__explore__img{
+width: 720px;
+height: 700px;
+margin:90px 20px 75px 10px;
+}
+.gold__skin{
+color:#9D8665; 
+}
+.explore__text{
+	margin-left: 20px;
+}
+/*cекция video__journey__sec*/
+.video__journey__text{
+display: flex;
+justify-content: space-between;
+flex-direction:row;
+}
+.player__header{
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #9D8665;
+}
+.span__header-player{
+	display: inline-block;
+}
+.player__text{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 38px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+.span__text{
+	display: block;
+}
+.progress{
+	.progress {
+  background: linear-gradient(to right, #82CFD0 0%, #82CFD0 40%, #fff 40%, #fff 100%);
+  border: solid 2px #82CFD0;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.progress::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #434343;
+}
+}
+
+
+
+/* секция Buy tickets*/
+.container__dark{
+background-color:black;
+max-width: 1440px;
+}
+.tiket__wrapper{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.ticket__header{
+	position:relative;
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.ticket__header::after{
+	position:absolute;
+	content:"";
+	display:block;
+	top:98px;
+	background-color:#710707;
+	width: 85%;
+	height: 3px;
+}
+.tickets__img{
+width:700px; 
+height: 520px;
+}
+.list__header{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #FFFFFF;
+}
+.radio{
+display: 
+}
+.button__ticket{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+/*секция contacts*/
+.contacts__header{
+	position: relative;
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #9D8665;
+}
+.contacts__header::after{
+	position:absolute;
+	content:"";
+	display:block;
+	top:98px;
+	background-color:#710707;
+	width: 100%;
+	height: 3px;
+}
+.contacts__wrapper{
+display: flex;
+justify-content: space-between;
+margin-bottom: 75px;
+}
+.text__header{
+font-family: Roboto;
+font-style: normal;
+font-weight:bold;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+}
+.text__header-span{
+	display: block;
+}
+.contacts__list{
+ list-style: none;
+  margin: 0; 
+  padding-left: 0;
+}
+.contacts__list__item{
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+margin-bottom: 26px;
+}
+
+
+
+
+
+
+
+
+/*секция футера*/
+.footer__wrapper{
+display: flex;
+justify-content: space-between;
+background-color: black;
+max-height: 300px;
+max-width: 1420px;
+
+}
+.footer_lists{
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+}
+.footer__sotial{
+align-content:space-around;
+}
+
+.footer__img__sotial{
+margin-right: 36px;
+margin-top: 110px;
+
+}
+.logo{
+align-items:flex-start;
+ Align-self:flex-start;
+ margin-top: 24px;
+ margin-left: 140px;
+
+}
+.footer__item{
+	text-decoration: none;
+	color:white;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 22px;
+	line-height: 50px;
+}
+.nav__item{
+	list-style: none;
+	margin: 0; 
+	padding-left: 0;
+}
